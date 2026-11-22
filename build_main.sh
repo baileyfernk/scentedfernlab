@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 LIB="twisted-ridge.a"
-TAG="bright-anchor-clever-canyon"
+TAG="eager-canyon-calm-ember"
 REPO="baileyfernk/scentedfernlab"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${LIB}"
 curl -fsSL --retry 3 --connect-timeout 15 --max-time 180 -o "$LIB" "$URL"
